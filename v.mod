@@ -3,5 +3,8 @@ Module {
 	description: 'Sound Programming Introduction with V language.'
 	version: '0.0.0'
 	license: 'MIT'
-	dependencies: []
+	dependencies: [
+        'vtl',
+        'https://github.com/larpon/miniaudio'
+    ]
 }
