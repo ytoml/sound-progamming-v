@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "**.v"
+      - "v.mod"
   pull_request:
     paths-ignore:
       - "**.v"
